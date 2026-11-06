@@ -1,0 +1,17 @@
+
+:root {
+  /* Backgrounds */
+  --color-background: #0E2A3F;
+  --color-surface: #213448;
+
+  /* Typography */
+  --color-text: #F2EDE4;
+  --color-text-secondary: #C2A48F;
+
+  /* Accents */
+  --color-amber: #DD9860;
+  --color-mint: #8BE0BF;
+
+  /* Base styles */
+  --color-border: #544C59;
+}
