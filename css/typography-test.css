@@ -1,0 +1,85 @@
+
+/* Import Google Fonts */
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Nunito:wght@400;600;700&family=Nunito+Sans:wght@400;600;700&family=Raleway:wght@400;600;700&family=Redaction&family=Redaction+20&family=Redaction+35&family=MedievalSharp:wght@400;600;700&family=Redaction+50&display=swap');
+
+
+/* Base */
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    background: #0E2A3F;
+    color: #F2EDE4;
+    font-family: Arial, sans-serif;
+}
+
+.test-container {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 48px 24px;
+}
+
+.test-header {
+    margin-bottom: 48px;
+}
+
+/* Shared test panels */
+.font-test {
+    background: #213448;
+    border: 1px solid #544C59;
+    border-radius: 8px;
+    padding: 28px;
+    margin-bottom: 24px;
+}
+
+.font-test h2 {
+    margin-top: 0;
+    color: #DD9860;
+    font-size: 36px;
+}
+
+.font-test p {
+    font-size: 20px;
+    line-height: 1.6;
+}
+
+/* Font families */
+.nunito-sans {
+    font-family: "Nunito Sans", sans-serif;
+}
+
+.nunito {
+    font-family: "Nunito", sans-serif;
+}
+
+.raleway {
+    font-family: "Raleway", sans-serif;
+}
+
+.bebas {
+    font-family: "Bebas Neue", sans-serif;
+}
+
+/* Redaction fonts will be added locally */
+
+/* Redaction typography */
+
+.medievalsharp {
+    font-family: "MedievalSharp", Georgia, serif;
+}
+
+.redaction-20 {
+    font-family: "Redaction 20", Georgia, serif;
+}
+
+.redaction-35 {
+    font-family: "Redaction 35", Georgia, serif;
+}
+
+.redaction-50 {
+    font-family: "Redaction 50", Georgia, serif;
+}
+
