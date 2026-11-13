@@ -1,17 +1,30 @@
 
+
 :root {
-  /* Backgrounds */
-  --color-background: #0E2A3F;
-  --color-surface: #213448;
+    /* Base color palette */
+    --color-cloud-ivory: #FFF1E6;
+    --color-warm-cream: #F8DEC9;
+    --color-sandstone: #C3A38A;
+    --color-dusty-rose: #997577;
+    --color-muted-mauve: #826371;
+    --color-deep-plum: #5D5264;
+    --color-dark-plum: #342C3B;
+    --color-deep-navy: #0E2A3F;
 
-  /* Typography */
-  --color-text: #F2EDE4;
-  --color-text-secondary: #C2A48F;
+    /* Light Chronicle */
+    --light-background: var(--color-cloud-ivory);
+    --light-surface: var(--color-warm-cream);
+    --light-text: var(--color-dark-plum);
+    --light-text-secondary: var(--color-deep-plum);
 
-  /* Accents */
-  --color-amber: #DD9860;
-  --color-mint: #8BE0BF;
+    /* Navy Chronicle */
+    --navy-background: var(--color-deep-navy);
+    --navy-text: var(--color-cloud-ivory);
+    --navy-text-secondary: var(--color-warm-cream);
 
-  /* Base styles */
-  --color-border: #544C59;
+    /* Dark Chronicle */
+    --dark-background: var(--color-deep-plum);
+    --dark-text: var(--color-cloud-ivory);
+    --dark-text-secondary: var(--color-warm-cream);
 }
+
